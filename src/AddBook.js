@@ -47,7 +47,7 @@ export default()=>{
     <form onSubmit={submit} className="">
 
         <div className="mb-3">
-        <label for="isbn" className="form-label">{isbn}
+        <label for="isbn" className="form-label">
             ISBN
         </label>
     <input className="form-control" id="isbn" onChange={(e)=>setIsbn(e.target.value)}/>
@@ -55,7 +55,7 @@ export default()=>{
         </div>
 
         <div className="mb-3">
-        <label for="name" className="form-label">{name}
+        <label for="name" className="form-label">
             Name
         </label>
     <input className="form-control" id="name" onChange={e=>setName(e.target.value)}/>
@@ -63,7 +63,7 @@ export default()=>{
         </div>
        
         <div className="mb-3">
-        <label for="category" className="form-label">{category}
+        <label for="category" className="form-label">
             Category
         </label>
     <input className="form-control" id="category" onChange={e=>setCategory(e.target.value)}/>
@@ -71,7 +71,7 @@ export default()=>{
         </div>   
 
         <div className="mb-3">
-        <label for="row" className="form-label">{row}
+        <label for="row" className="form-label">
             Row No.
         </label>
     <input className="form-control" id="row" onChange={e=>{setRow(e.target.value)}}/>
@@ -79,7 +79,7 @@ export default()=>{
         </div>
 
         <div className="mb-3">
-        <label className="form-label" for="count">{count}
+        <label className="form-label" for="count">
             Book Count
         </label>
     <input className="form-control" id="count" onChange={e=>{setCount(e.target.value)}}/>
@@ -87,7 +87,7 @@ export default()=>{
         </div>   
 
     <div className="mb-3" >
-        <label className="form-label" for="cost">{cost}
+        <label className="form-label" for="cost">
             Cost
         </label>
     <input className="form-control" id="cost" onChange={e=>{setCost(e.target.value)}}/>
@@ -95,7 +95,7 @@ export default()=>{
         </div>    
 
     <div className="mb-3">
-        <label className="form-label" for="availability"> {availability}
+        <label className="form-label" for="availability"> 
             Availability
         </label>
     <input className="form-control" id="availability" onChange={e=>setAvailability(e.target.value)}/>
